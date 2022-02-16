@@ -1,14 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>ContactUs</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/bd323a5314.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>ContactUs</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quidem dolores porro natus reprehenderit autem veniam quibusdam. Laboriosam tenetur, rerum inventore quas atque in provident recusandae ipsa error sunt voluptas.
-    </p>
+<h1 class="topic">Contact Us</h1>
+	<div class="hero">
+		<form>
+	<div class="row">
+	<div class="input-groups">
+			<input type="text" id="name" required>
+			<lable for="name"><i class="fa-solid fa-user"></i> Your Name:</lable>
+		</div>
+		<div class="input-groups">
+			<input type="text" id="number" required>
+			<lable for="number"><i class="fas fa-phone-square-alt"></i> Phone Number:</lable>
+		</div>
+		
+	</div>
+		
+		<div class="input-groups">
+			<input type="email" id="name" required>
+			<lable for="email"><i class="fas fa-envelope"></i> Email Id:</lable>
+		</div>
+		<div class="input-groups">
+			<textarea id="message" rows="8" required></textarea>
+			<lable for="message"><i class="fas fa-comments"></i> Your Message:</lable>
+		</div>
+		<button type="submit">SUBMIT<i class="fas fa-paper-plane"></i></button>
+		</form>
+	</div>
+
 </body>
 </html>
