@@ -6,18 +6,42 @@
 <body>
 <section id="banner">
 <img src="images/Logo.png" class="Logo">
+<div class="banner-text">
+<h1>FOE</h1>
+   
 </section>
-    
+<div id="sidenav">
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">FACULTIES</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">EMERGENCIES</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menubtn">
+    <img src="images/open.jpg" id="menu">
+</div>
+<script>
+    var menubtn =document.getElementById("menubtn")
+    var sidenav =document.getElementById("sidenav")
+    var menu =document.getElementById("menu")
 
+    sidenav.style.right = "-250px";
 
-
-
-
-
-
-
-
-
+    menubtn.onclick = function(){
+        if(sidenav.style.right == "-250px"){
+            sidenav.style.right = "0";
+            menu. src="images/Close.jpg";
+        }
+        else{
+            sidenav.style.right = "-250px";
+            menu.src= "images/open.jpg";
+        }
+    }
+</script>
 
 
 
@@ -27,4 +51,9 @@
 
 
 </body>
+
+
+
+
+
 </html>
