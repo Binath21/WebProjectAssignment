@@ -117,6 +117,7 @@ nav ul li a{
 }
 
 #bg{
+	background: linear-gradient(rgba(0,0,0,0.5),#668866), url(image/bg.jpg);
 	position: center;
 	height: 80vh;
 }
