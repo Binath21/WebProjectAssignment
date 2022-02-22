@@ -1,77 +1,120 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>ContactUs</title>
-	<link rel="stylesheet" href="ContactUs.css">
-	<script src="https://kit.fontawesome.com/bd323a5314.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600;1,800&display=swap" rel="stylesheet"> 
 
 </head>
 <body>
+    <section id="banner">
+        <img src="logo.png" class="logo">
+        <div class="banner-text">   
+            <h1>topic</h1> 
+            
+        </div>
+     </section><br><br><br><br><br>
+     <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FACULTIES</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">EMERGENCIES</a></li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="images/open.jpg" id="menu">
+    </div>
+    <div class="container">
+        <h1>Contact us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Voluptatem praesentium doloremque earum dolorem, perspiciatis eveniet dolor reiciendis fugiat nesciunt quisquam ratione. Deleniti, et vel labore magni harum beatae fugiat sequi!</p>
+        <div class="contact-box">
+                <div class="contact-left">
+                        <h3>Sent your request</h3>
+                        <form>
+
+                         <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="John Snow">
+                            </div>
+                            <div class="input-group">
+                                <label>Phone</label>
+                                <input type="text" placeholder="+94 77 8888 33">
+                            </div>
+
+                         </div>
+                         <div class="input-row">
+                            <div class="input-group">
+                                <label>E-mail</label>
+                                <input type="email" placeholder="Johnsnow@gmail.com">
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" placeholder="Product demo">
+                            </div>
+
+                         </div> 
+
+                         <label>Message</label>
+                         <textarea rows="10" placeholder="Your message"></textarea>
+
+                         <button id="se" type="submit">SEND</button>
+                         <button id="re" type="reset">RESET</button>
 
 
-	<header class="header">
-		<a href=""><img class="logo" src="logo.png"></a>
-	</header>
-		<h1 id="h" class="topic">Contact Us</h1>
-		<center><img id="bg" src="image/bg.jpg"></center>
-		<div id="sidenav">
-			<nav>
-				<ul>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">FACULTIES</a></li>
-					<li><a href="#">NEWS</a></li>
-					<li><a href="#">EMERGENCIES</a></li>
-					<li><a href="#">ABOUT US</a></li>
-				</ul>
-			</nav>
-		</div>
-		<div id="menubtn">
-			<img src="image/open.jpg" id="menu">
-		</div>
-			<div class="do">
-				<form>
-			<div class="row">
-			<div class="input-groups">
-					<input type="text" id="name" required>
-					<lable for="name"><i class="fa-solid fa-user"></i> Your Name:</lable>
-				</div>
-				<div class="input-groups">
-					<input type="text" id="number" required>
-					<lable for="number"><i class="fas fa-phone-square-alt"></i> Phone Number:</lable>
-				</div>
-				
-			</div>
-				
-				<div class="input-groups">
-					<input type="email" id="name" required>
-					<lable for="email"><i class="fas fa-envelope"></i> Email Id:</lable>
-				</div>
-				<div class="input-groups">
-					<textarea id="message" rows="8" required></textarea>
-					<lable for="message"><i class="fas fa-comments"></i> Your Message:</lable>
-				</div>
-				
-				<button type="submit">SUBMIT<i class="fas fa-paper-plane"></i></button>
-				
-				</form>
-			</div>
-			<script>
-				var menubtn =document.getElementById("menubtn")
-				var sidenav =document.getElementById("sidenav")
-				var menu =document.getElementById("menu")
-			
-				sidenav.style.right = "-250px";
-			
-				menubtn.onclick = function(){
-					if(sidenav.style.right == "-250px"){
-						sidenav.style.right = "0";
-						menu. src="image/close.png";
-					}
-					else{
-						sidenav.style.right = "-250px";
-						menu.src= "image/open.jpg";
-					}
-				}
-			</script>
-			
+                        </form>
+
+                </div>
+                <div class="contact-right">
+                        <h3>Reach us</h3>
+
+                        <table>
+                            <tr>
+                                <td>E-mail</td>
+                                <td>johnsnow@gmail.com</td>
+
+                            </tr>
+                            <tr>
+                                <td>Phone Number</td>
+                                <td>+94 78 8715 36</td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td>#235, pitipana, kottawa</td>
+                            </tr>                                                      
+
+                        </table>
+
+                </div>
+
+        </div>
+    </div>
+
+    <script>
+        var menubtn =document.getElementById("menubtn")
+        var sidenav =document.getElementById("sidenav")
+        var menu =document.getElementById("menu")
+    
+        sidenav.style.right = "-250px";
+    
+        menubtn.onclick = function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0";
+                menu. src="images/close.png";
+            }
+            else{
+                sidenav.style.right = "-250px";
+                menu.src= "images/open.jpg";
+            }
+        }
+    </script>
+    
 </body>
 </html>
