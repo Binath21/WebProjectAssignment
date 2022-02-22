@@ -60,3 +60,18 @@ nav ul li a{
     width: 50px;
     margin-top: 1px;
 }
+
+
+
+table{
+	width: 400px;
+}
+
+th{
+	text-align:left;
+}
+
+table,th,td{
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
