@@ -4,7 +4,7 @@
 
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5),#668866),url(images/FOB.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),#668866),url(images/Banner2.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -61,15 +61,33 @@ nav ul li a{
     margin-top: 1px;
 }
 
-table{
+}
+table {
 	width: 400px;
 }
 
+table, th, td {
+	border: 1px solid #00;
+	border-collapse: collapse;
+    table-layout: fixed;
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+}
+td:hover{
+    background: rgba(220,20,60,.6);
+}
 th{
-	text-align:left;
+    background: rgba(220,20,60,.6);
 }
 
-table,th,td{
-	border: 1px solid #000;
-	border-collapse: collapse;
+tr:nth-child(odd){
+    background: rgba(0,0,0,0.8);
+    color: white;
+
+}
+tr:nth-child(odd){
+    background: rgba(0,0,0,0.8);
+    color: white;
 }
