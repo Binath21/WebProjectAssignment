@@ -146,32 +146,18 @@ overflow: hidden;
 text-align: center;
 
 }
-.video-container{
 
-    position: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-.color-overlay{
-position: absolute;
-top: 0;
-left: 0;
 
-width: 100%;
-height: 100vh;
-opacity: 0.5;
-
-}
 
 .news h3{
 
     text-align: justify;
     padding: 30px;
     font-size: 30;
-
+     margin-left: 80px;
 }
 .points{
+   
 
 padding: 30px;
 font-size: 20;
@@ -180,23 +166,20 @@ margin: auto;
 display: flex;
 flex-wrap: wrap;
 align-items: center;
-text-align: center;
+text-align: left;
 
 
 }
 .guidline-text{
 
-text-align: justify;
-padding:30px ;
-font-size: 20;
-padding: 30px;
+padding: 10px ;
 font-size: 20;
 width: 80%;
 margin: auto;
 display: flex;
 flex-wrap: wrap;
 align-items: center;
-text-align: center;
+text-align: left;
 
 
 }
