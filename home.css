@@ -71,7 +71,7 @@ nav ul li a{
 @media screen and (max-width: 770px){
     .banner-text h1{
         font-size: 44px;
-        margin: 20px auto;
+        
     }  
     .banner-btn a{
         display: block;
@@ -345,17 +345,18 @@ hr{
 /*--FOOTER--*/
 #footer{
     padding: 100px 0 20px;
-    background: #032703;
+    background: #efefef;
+    position: relative;
 }
 .footer-text{
-    color: #fff;
+    color: #000;
     text-align: center;
     padding-bottom: 70px;
 }
 .footer-text p{
     margin: auto;
     font-size: 20px;
-    color: #ffffff;
+    color: #668866;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -368,7 +369,7 @@ hr{
     content: '';
     width: 50px;
     height: 35px;
-    background: linear-gradient(#50eede,rgb(0, 0, 0));
+    background: linear-gradient(#50eede,rgb(255, 255, 255));
     position: absolute;
     top: -20px;
     left: 0;
@@ -383,7 +384,7 @@ hr{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    color: #fff;
+    color: rgb(0, 0, 0);
 
 }
 .footer-left,.footer-right{
@@ -401,4 +402,43 @@ hr{
 }
 .footer-row p{
     line-height: 35px;    
+}
+.footer-img{
+    max-width: 370px;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.social-links{
+    text-align: center;
+}
+.social-links .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20p;
+    line-height: 40px;
+    border: 1px solid #668866;
+    margin: 40px 5px 0;
+    color: #668866;
+    cursor: pointer;
+    transition: .5s;
+}
+.social-links .fa:hover{
+    background: #668866;
+    color: #fff;
+    transform: translateY(-7px);
+}
+@media screen and (max-width: 770px){
+    .footer-left,.footer-right{
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+    .footer-img{
+        top: 50%;
+        width: 300px;
+        height: 150px;
+    }
+
 }
