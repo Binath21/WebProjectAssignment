@@ -20,11 +20,15 @@ body
 
 }
 
-.banner-text
-{
-    background-position: center;
-    font-weight: bold;
-    font-size: 500%;
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+    
+}
+.banner-text h1{
+      font-size: 100px;
+
 }
 
 .logo{
