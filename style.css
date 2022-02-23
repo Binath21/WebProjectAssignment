@@ -67,7 +67,7 @@ nav ul li a{
 
 body
 {
-    background: #008b61;
+    background: #B0E0E6;
 }
 
 
@@ -192,7 +192,7 @@ tr:nth-child(odd){
 .single-box:hover
 {
     background: rgba(220,20,60,.6);
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
 
