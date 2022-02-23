@@ -59,7 +59,12 @@ nav ul li a{
 }
 #menubtn img{
     width: 50px;
-    margin-top: 1px;
+    margin-top: 1px;   
+}
+body{
+    display: grid;
+    place-items: center;
+    
 }
 table {
 	width: 400px;
