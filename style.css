@@ -64,6 +64,9 @@ nav ul li a{
 
 }
 
+display: grid;
+    place-items: center;
+
 
 body
 {

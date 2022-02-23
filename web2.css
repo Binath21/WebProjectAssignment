@@ -62,8 +62,28 @@ nav ul li a{
 }
 
 }
+
+body
+{
+    background: #008b61;
+}
+
+
+.footer{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(2,6,30,0.5),rgba(2,6,30,0.5)),url(images/vaccine1.jpeg) ;
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+
+.footer h1{
+    font-size: 50px;
+}
+
 table {
-	width: 400px;
+	width: 600px;
 }
 
 table, th, td {
