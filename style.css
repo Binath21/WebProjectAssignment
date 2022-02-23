@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0%;
 
-
 }
 #banner{
     background: linear-gradient(rgba(0,0,0,0.5),#668866),url(images/Banner.jpg);
@@ -59,15 +58,36 @@ nav ul li a{
 }
 #menubtn img{
     width: 50px;
-    margin-top: 1px;   
+    margin-top: 1px;
 }
-body{
-    display: grid;
-    place-items: center;
-    
+
+
 }
+body
+{
+    background: #008b61;
+}
+
+.footer{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(2,6,30,0.5),rgba(2,6,30,0.5)),url(images/vaccine.jpeg) ;
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+
+.footer h1{
+    font-size: 50px;
+}
+
 table {
-	width: 400px;
+	width: 600px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 table, th, td {
@@ -77,22 +97,97 @@ table, th, td {
 }
 th, td{
     text-align: center;
-    padding: 10px;
+    padding: 10px 100px ;
 }
 td:hover{
     background: rgba(220,20,60,.6);
 }
 th{
+    background: rgba(220, 20, 60, .6);
+}
+
+tr:nth-child(odd){
+    background: rgba(0,0,0,0.8);
+    color: white;
+
+}
+tr:nth-child(odd){
+    background: rgba(0,0,0,0.8);
+    color: white;
+}
+
+
+
+.box-area
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-box
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: .3s;
+}
+
+.img-area
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 6px solid #ddd;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+
+
+
+
+.header-text
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.img-text
+{
+    font-family: Poppins;
+    padding-top: 20px;
+    
+}
+
+.img-text p
+{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.single-box:hover
+{
     background: rgba(220,20,60,.6);
+    color: rgb(255, 255, 255);
 }
-
-tr:nth-child(odd){
-    background: rgba(0,0,0,0.8);
-    color: white;
-
-}
-tr:nth-child(odd){
-    background: rgba(0,0,0,0.8);
-    color: white;
-}
-
