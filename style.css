@@ -63,8 +63,34 @@ nav ul li a{
 
 
 }
+
+
+body
+{
+    background: #008b61;
+}
+
+
+.footer{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(2,6,30,0.5),rgba(2,6,30,0.5)),url(images/vaccine1.jpeg) ;
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+
+.footer h1{
+    font-size: 50px;
+}
+
 table {
-	width: 400px;
+	width: 600px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 table, th, td {
@@ -74,7 +100,7 @@ table, th, td {
 }
 th, td{
     text-align: center;
-    padding: 10px;
+    padding: 10px 100px ;
 }
 td:hover{
     background: rgba(220,20,60,.6);
@@ -94,10 +120,6 @@ tr:nth-child(odd){
 }
 
 
-body
-{
-    background: #008B8B;
-}
 
 .box-area
 {
@@ -117,7 +139,7 @@ body
     width: 300px;
     height: auto;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     margin: 20px;
     padding: 20px;
@@ -141,25 +163,10 @@ body
 
 }
 
-.single-box:nth-child(1) .img-area
-{
-    background-image: url(1.jpg);
-}
 
-.single-box:nth-child(2) .img-area
-{
-    background-image: url(2.jpg);
-}
 
-.single-box:nth-child(3) .img-area
-{
-    background-image: url(3.jpg);
-}
 
-.single-box:nth-child(4) .img-area
-{
-    background-image: url(images/vaccination.jpg);
-}
+
 
 .header-text
 {
@@ -172,6 +179,7 @@ body
 {
     font-family: Poppins;
     padding-top: 20px;
+    
 }
 
 .img-text p
@@ -183,6 +191,8 @@ body
 
 .single-box:hover
 {
-    background: #5ae65a;
-    color: #fff;
+    background: rgba(220,20,60,.6);
+    color: rgb(255, 255, 255);
 }
+
+
