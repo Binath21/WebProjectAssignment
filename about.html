@@ -1,49 +1,195 @@
 <html>
-<head>
-      <h2>Home> About Campus> News</h2>
-      <h2>About Campus</h2>
-</head>
+    <head>
+        <title>About us</title>
+        <h2>HOME>ABOUT US</h2>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width =device-width, initial-scale =1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
 <body>
-<left>
-<img src="images/sofnsbm_bg.png" width=1500px height=500px>
-<align right>
-<h3>OUR VISSION</h3>
-<p>To be Sri Lanka’s best performing Graduate School and to be recognized internationally.
-</P>
-<h3>OUR MISSION</h3>
-<p>To develop globally competitive and responsible graduates that businesses demand, working in synergy with all our stakeholder and contributing to our society.
-</p>
-<br>
-<br>
-</align>
-<h1>News</h1>
-<br>
-<h4>Now covid stuation in campus</h4>
-<ul>
-<li>a</li>
-<li>b</li>
-<li>c</li>
-</ul>
-<h4>How we handling the covid in campus</h4>
-<ul>
-<li>Everyone's body temperature is measured before entering the university.</li>
-<li>If the body temperature rises above 37.5, the person will not be admitted to the university.</li>
-<li> If a corona patient is found at the university, they will be referred for immediate treatment.</li>
-<li>Once a week the whole university is disinfected.</li>
-</ul>
-<h4>Guidlines for students and staff</h4>
-<ul>
-<li>Everyone should wear mask.</li>
-<li>Everyone must wash their hands before entering university.</li>
-<li>In the lecture hall, each student must open a chair and sit down.</li>
-<li>It is forbidden to remove the mask in the university.</li>
-</ul>
+<section id="banner">
+    <img src="images/logo.png" class="logo">
+    <div class="banner-text">
+        <h1>ABOUT US</h1>
+       
+
+        </div>
+    </div>
+
+</section>
+
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FACULTIES</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="images/open.jpg" id="menu">
+    </div>
+ <section class="home">
+<br><br>
+<h1>ABOUT NSBM</h1>
+<br><br>
+<div class="feature-box">
+    <div class="feature">
+        <h2s>OUR VISION</h2>
+            <div class="feature-desc">
+            <div class="feature-text">
+                <br>
+                <p>To be Sri Lanka’s best performing Graduate School and to be recognized internationally.</p>
+            </div>
+
+
+            </div>
+    </div>
+
+    <div class="feature-img">
+        <img id="vission" src="images/vision.jpg">
+
+    </div>
+
+</div>
+   
+</div>
+<br><br>
+<div class="feature-box">
+    <div class="feature">
+        <h2s>OUR MISSION</h2>
+            <div class="feature-desc">
+            <div class="feature-text">
+                <br>
+                <p>To develop globally competitive and responsible graduates that businesses demand, working in synergy with all our stakeholder and contributing to our society.</p>
+            </div>
+            </div>
+    </div>
+    <div class="feature-img">
+        <img src="images/mission.jpg">
+    </div>
+
+ </section>
+ <div class="section">
+    <div class="video-container">
+        <div class="color-overlay"></div>
+    
+<video autoplay loop muted>
+    <source src="video/nsbm.mp4.mp4">
+</video>
+</div>
+
+ </div> 
+
+   <section id="news">
+ <div class="news">
+     <br><br><br>
+    <h1>NEWS</h1>
+    <br><br>
+    
+     <br>
+     <h3>How we handle the covid in campus</h3> 
+     <br>
+     <div class="points">
+     <ul>
+        <li>Everyone's body temperature is measured before entering the university.</li>
+        <br>
+        <li>If the body temperature rises above 37.5, the person will not be admitted to the university.</li>
+        <br>
+        <li> If a corona patient is found at the university, they will be referred for immediate treatment.</li>
+       <br>
+        <li> Once a week the whole university is disinfected.</li>
+    </div>
+
+     </ul>
+     <br>
+     <h3>Guidline for studenr</h3>
+     <br>
+     <div class="guidline-text">
+     <ul>
+        <li>Everyone should wear mask.</li>
+        <br>
+        <li>Everyone must wash their hands before entering university.</li> 
+        <br>
+        <li>In the lecture hall, each student must open a chair and sit down.</li>
+        <br>
+        <li> It is forbidden to remove the mask in the university.</li>
+
+    </div>
+     </ul>
+    
 
 
 
+ </div>
 
 
+   </section>
 
 
+<script>
+    var menubtn =document.getElementById("menubtn")
+    var sidenav =document.getElementById("sidenav")
+    var menu =document.getElementById("menu")
+
+    sidenav.style.right = "-250px";
+
+    menubtn.onclick = function(){
+        if(sidenav.style.right == "-250px"){
+            sidenav.style.right = "0";
+            menu. src="images/close.png";
+        }
+        else{
+            sidenav.style.right = "-250px";
+            menu.src= "images/open.jpg";
+        }
+    }
+</script>
+
+<!--footer-->
+<section id="footer">
+    <img src="images/logo.png" class="footer-img">
+  <div class="title-text">
+      <p>CONTACT </p>
+      <br><br><br>
+      <h1>NSBM GREEN UNIVERSITY</h1>
+  </div>
+  <div class="footer-row">
+      <div class="footer-left">
+          <h2>UNDERGRADUATE PROGRAMMES</h2>
+          <a href="#"><p>Faculty of bussiness</p></a>
+          <a href="#"><p>Faculty of computing</p></a>
+          <a href="#"><p>Faculty of engineering</p></a>
+          <a href="#"><p>Faculty of science</p></a>
+      </div>
+      <div class="footer-right">
+          <h2>CONTACT DETAILS</h2>
+          <p>Mahenwaththa,
+              Pitipana, Homagama,
+              Sri Lanka</p>
+          <p>+94 11 544 5000 <i class="fa fa-phone"></i></p>
+          <p>+94 11 244 5000 <i class="fa fa-whatsapp"></i></p>
+          <p>+94 11 544 5009 <i class="fa fa-fax"></i></p>
+          <p>inquiries@nsbm.ac.lk <i class="fa fa-paper-plane"></i></p>
+      </div>
+
+  </div>
+  <div class="social-links">
+
+      <a href="#"></a><i class="fa fa-facebook"></i></a>
+      <a href="#"></a><i class="fa fa-instagram"></i></a>
+      <a href="#"></a><i class="fa fa-twitter"></i></a>
+      <a href="#"></a><i class="fa fa-youtube-play"></i></a>
+
+  </div>
+
+</section>
+
+
+</body>
 
 </html>
