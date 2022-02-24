@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vaccine.css">
+
+    <script>
+        function validate(){
+        if(document.frm1.uname.value.length<1){
+            alert("User Name cannot be empty");
+        }
+        if(document.frm1.id.value.length<1){
+            alert("Student ID cannot be empty");
+        }
+
+        }
+
+
+    </script>
+
+
+
+</head>
+<body>
+    <div class="container">
+     <h1>Vacination Details</h1>
+     <br><br>
+     
+
+    <table>
+        
+    
+          
+        <form method="POST" id="frm" name="frm1" onsubmit="validate();">
+            <div class="input-uname"> 
+            <tr>
+                <td><br>User Name</td>
+                <td><input type="text" name="uname" placeholder="AWD UDAWATHTHA"></td>
+            </tr>
+            </div>
+            
+            <div class="input-id">
+            <tr>
+                <td><br>Student Id</td>
+                <td><input type="text" name="id" placeholder="23769"></td>
+            </tr>
+           </div>
+    
+            <div class="input-faculty">
+            <tr>
+                <td><br>Faculty</td>
+                <td><br><input type="radio" name="faculty" value="Fob">FOB<input type="radio" name="faculty" value="Foc">FOC<input type="radio" name="faculty" value="Foe">FOE<input type="radio" name="faculty" value="Fos">FOS</td>
+            </tr>
+            </div>
+    
+            <div class="input-radio">
+            <tr>
+                <td>Which doss</td>
+                <td><br><input type="radio" name="doss" value="first & second doss">First & seccond Doss<input type="radio" name="doss" value="booster">Booster<input type="radio" name="doss" value="None">None</td>
+            </tr>
+            </div>
+            
+            <div class="input-meaage">
+            <tr>
+                <td><label>Message</label></td>
+                <td><textarea rows="10" placeholder="Your message"></textarea></td>
+            </tr>
+            </div>
+            
+            <tr>
+            <td><button id="se" type="submit">SUBMIT</button></td>
+            <td><button id="re" type="reset">RESET</button></td>
+            </tr>
+        
+    
+    
+        </form>
+        
+    
+    </table>
+</div>
+</body>
+
+
+
+</html>
