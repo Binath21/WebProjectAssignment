@@ -270,6 +270,11 @@ body
     background-image: url(4.jpg);
 }
 
+.single-box:nth-child(5) .img-area
+{
+    background-image: url(5.png);
+}
+
 .header-text
 {
     font-size: 24px;
