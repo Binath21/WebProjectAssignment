@@ -168,6 +168,11 @@ body
 
 }
 
+.single-box:nth-child(1) .img-area
+{
+    background-image: url(images/temp2.jpeg);
+}
+
 
 
 .header-text
