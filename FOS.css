@@ -157,9 +157,9 @@ body
 }
 
 
-.single-box:nth-child(2) .img-area
+.single-box:nth-child(1) .img-area
 {
-    background-image: url(2.jpeg);
+    background-image: url(1.jpeg);
 }
 
 
