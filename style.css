@@ -115,7 +115,10 @@ tr:nth-child(odd){
     background: rgba(0,0,0,0.8);
     color: white;
 }
-
+body
+{
+    background: #B0E0E6;
+}
 
 
 .box-area
@@ -162,11 +165,15 @@ tr:nth-child(odd){
 
 
 
-
+.single-box:nth-child(1) .img-area
+{
+    background-image: url(Images/1.jpeg);
+}
 
 
 .header-text
 {
+
     font-size: 24px;
     font-weight: 500;
     line-height: 48px;

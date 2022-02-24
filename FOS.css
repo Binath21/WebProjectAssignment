@@ -110,6 +110,10 @@ tr:nth-child(odd){
     background: rgba(0,0,0,0.8);
     color: white;
 }
+body
+{
+    background: #B0E0E6;
+}s
 .box-area
 {
     display: flex;
@@ -153,7 +157,10 @@ tr:nth-child(odd){
 }
 
 
-
+.single-box:nth-child(2) .img-area
+{
+    background-image: url(2.jpeg);
+}
 
 
 
