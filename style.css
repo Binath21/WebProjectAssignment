@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(images/bg\ \(1\).jpeg);
+    background: url(Images/bg.jpeg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -132,7 +132,7 @@ body
 
 #banner
 {
-    background: linear-gradient(rgba(0,0,0,0.5),#668866),url(images/banner.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),#668866),url(images/banner1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
