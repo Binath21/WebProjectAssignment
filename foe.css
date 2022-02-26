@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0%;
 
-
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5),#668866),url(images2/FOS.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),#668866),url(images2/FOE.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -61,10 +60,17 @@ nav ul li a{
     width: 50px;
     margin-top: 1px;
 }
+
+
+}
+
+
 body
 {
-    background: #008b61;
+    background: #B0E0E6;
 }
+
+
 .footer{
     min-height: 100vh;
     width:100%;
@@ -77,6 +83,7 @@ body
 .footer h1{
     font-size: 50px;
 }
+
 table {
 	width: 600px;
 }
@@ -85,6 +92,7 @@ table {
     margin-right: auto;
     text-align: center;
 }
+
 table, th, td {
 	border: 1px solid #00;
 	border-collapse: collapse;
@@ -92,13 +100,13 @@ table, th, td {
 }
 th, td{
     text-align: center;
-    padding: 10px 100px;
+    padding: 10px 100px ;
 }
 td:hover{
     background: rgba(220,20,60,.6);
 }
 th{
-    background: rgba(220,20,60,.6);
+    background: rgba(220, 20, 60, .6);
 }
 
 tr:nth-child(odd){
@@ -110,6 +118,11 @@ tr:nth-child(odd){
     background: rgba(0,0,0,0.8);
     color: white;
 }
+
+
+
+
+
 .box-area
 {
     display: flex;
@@ -135,6 +148,8 @@ tr:nth-child(odd){
     transition: .3s;
 }
 
+
+
 .img-area
 {
     display: flex;
@@ -152,12 +167,11 @@ tr:nth-child(odd){
 
 }
 
+
 .single-box:nth-child(1) .img-area
 {
-    background-image: url(images2/card2.jpeg);
+    background-image: url(images2/card.jpeg);
 }
-
-
 
 
 
@@ -185,9 +199,13 @@ tr:nth-child(odd){
 .single-box:hover
 {
     background: rgba(220,20,60,.6);
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
+
+
+
+/*--FOOTER--*/
 #footer{
     padding: 100px 0 20px;
     background: #bfd4c6;
